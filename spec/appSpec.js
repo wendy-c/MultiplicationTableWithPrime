@@ -26,4 +26,10 @@ describe("MultiplicationTable", function() {
     expect(primes.length).toEqual(15);
   });
 
+  it("Should return String", function() {
+    first15.current = 2;
+    var primes = first15.printTable();
+    expect(typeof primes).toEqual('string');
+  });
+
 });

@@ -1,8 +1,10 @@
 var Table = require('cli-table');
 
-function MulTable(nth) {
-  this.current = 2;
-  this.nth = nth || 10;
+class MulTable {
+  constructor(nth) {
+    this.current = 2;
+    this.nth = nth || 10;
+  }
 }
 
 MulTable.prototype.isPrime = function() {
@@ -48,11 +50,11 @@ MulTable.prototype.printTable = function() {
     table.push(row);
   }
 
-  console.log(table.toString());
+  return table.toString();
 
 };
 
 var test = new MulTable();
-test.printTable();
+console.log(test.printTable());
 
 module.exports = MulTable;
