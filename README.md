@@ -9,9 +9,9 @@
 
 ####To run app, go to root folder:
 
-> npm install cli-table
-> node app.js
+`npm install cli-table`
+`node app.js`
 
 ####To run test with the app:
->npm install jasmine
->jasmine
+`npm install jasmine`
+`jasmine`
