@@ -1,0 +1,23 @@
+{
+  "name": "multiplicationtable",
+  "version": "1.0.0",
+  "description": "###Write a program that prints out a multiplication table of the first 10 prime number.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wendy-c/MultiplicationTableWithPrime.git"
+  },
+  "author": "Wendy Cheung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wendy-c/MultiplicationTableWithPrime/issues"
+  },
+  "homepage": "https://github.com/wendy-c/MultiplicationTableWithPrime#readme",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "jasmine": "^2.5.2"
+  }
+}
