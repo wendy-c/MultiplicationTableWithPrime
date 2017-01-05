@@ -1,6 +1,6 @@
-#Multiplication table of the first Nth prime number
+#Multiplication table of the first N prime number
 
-###Write a program that prints out a multiplication table of the first 10 prime number.
+###Write a program that prints out a multiplication table of the first N prime number.
 
 ####● The program must run from the command line and print one table to STDOUT.
 
@@ -12,3 +12,5 @@
 `npm install`
 
 `npm test`
+
+![First 10 Prime](/primes.png)
